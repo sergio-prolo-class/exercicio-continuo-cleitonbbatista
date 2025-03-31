@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "emmet.showExpandedAbbreviation": "never",
+    "html.hover.documentation": true,
+    "html.suggest.html5": true,
+    "html.format.indentInnerHtml": false,
+    "html-css-class-completion.HTMLLanguages": [
+        "html"
+    ],
+    "html-css-class-completion.CSSLanguages": [
+        "css"
+    ]
+}
