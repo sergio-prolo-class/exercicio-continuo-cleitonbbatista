@@ -1,0 +1,35 @@
+/* Modo escuro, mas os ícones são escuros :(
+body {
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
+}*/
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: Cascadia Code;
+}
+
+tr {
+    text-align: center;
+}
+
+li {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#sobreMim {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#imgInicio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
