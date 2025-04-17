@@ -1,9 +1,19 @@
-/* Modo escuro, mas os ícones são escuros :(
+/* Modo escuro, mas os ícones são escuros :( */
 body {
     background-color: Canvas;
     color: CanvasText;
     color-scheme: light dark;
-}*/
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 h1 {
     text-align: center;
@@ -32,4 +42,34 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.caixa-habilidades {
+    background-color: rgb(208, 247, 232);
+    border-width: 2px solid #a4baff;
+    padding: 20.1px;
+    margin: 30px;
+    height: 300px;
+    overflow: auto;
+    color: #00b972;
+}
+
+.secao-onibus {
+    background-color: lightseagreen;
+
+    td {
+        background-color: #9f4ab0;
+    }
+
+    td:hover {
+        border: 5px #00e5e5 outset;
+    }
+}
+
+#disciplinas>dd {
+    color: rgb(255, 253, 220);
+}
+
+.destaque {
+    font-weight: bold;
 }
